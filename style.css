@@ -1,0 +1,67 @@
+body{
+	background-color: #666;
+	color: #fff;
+}
+.container{
+	background-color: #333;
+	width: 100%;
+	overflow: hidden;
+	margin: 30px auto;
+	width: 100%;
+	padding: 10px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+ul{
+	padding: 0;
+}
+.active{
+	color: black;
+	font-weight: bold;
+}
+.nav{
+	height: 40px;
+	background-color: #666;
+}
+.nav ul{
+	padding-top: 13px;
+	padding-left: 10px;
+}
+.nav li{
+	list-style-type: none;
+	float: left;
+	padding-right: 20px;
+}
+.main{
+	font-family: arial;
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+div .side{
+	float: right;
+	width: 30%;
+	margin-top: 20px;
+	padding:20px;
+	background-color: #666;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	background-color: #fff;
+	color: black;
+}
+.readmore{
+	background-color: #fff;
+	color: black;
+	padding: 2px;
+	float: right;
+}
+.contact{
+	float: left;
+	padding: 20px;
+}
