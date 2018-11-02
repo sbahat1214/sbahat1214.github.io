@@ -11,17 +11,15 @@
         body{
             padding: 0;
             margin: 0;
+           
+            
         }
         img{
             width: 48%;
            border-radius: 10px;
         }
         
-        #header{
-            width: 100%;
-            background-color: #505050;
-            margin-top: 0;
-        }
+       
         li{
             color: white;
             display: inline;
@@ -34,28 +32,88 @@
             margin:0 auto;
             padding:0px;
             font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
-            background-color:#CED8F6;
+            color: white;
+            background-image: url("3.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
             }
-        
+            span{
+                background: #573D7C;
+                             
+
+            }
+            .f4{
+                width: 18px;
+            }
+            .f
+            {
+                padding: 10px;
+                border:5px white;
+            } 
+            .g
+            {
+                padding: 10px;
+                border:5px white;
+            } 
+            .f:hover
+            {
+                background: #4C6EA3;
+                border-radius: 4px;
+            }
+            .g:hover
+            {
+                background: #573D7C;
+                border-radius: 4px;
+            }
+            a:hover {
+            
+            padding-left: 14px;
+            opacity: 0.7;
+            
+            }
+            .img__description {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(29, 106, 154, 0.72);
+                color: #fff;
+                visibility: hidden;
+                opacity: 0;
+
+                /* transition effect. not necessary */
+                transition: opacity .2s, visibility .2s;
+                }
+                .link:hover .img__description {
+                    visibility: visible;
+                    opacity: 1;
+                    }
+                    .link {
+                    position: relative;
+                    height: 200px;
+                    width: 257px;
+                    }
+                        
 
         
     </style>
 </head>
-<body>
+<body >
 
 
         <div id="header">
 
             <ul>
-                <a href="#"><li>Facebook</li></a>
-                <a href="#"><li>Instagram</li></a>
+                <a href="https://www.facebook.com/sbahat1214" class="f"><img src="f4.png" class="f4" alt=""> <li>Facebook</li></a>
+                <a href="https://www.instagram.com/aquarius11123" class=" g"><img src="i5.png" class="f4" alt=""> <li>Instagram</li></a>
             </ul>
 
         </div>
 
 
-        <h1>
-            Welcome to My Portfolio
+        <h1 id="sbahat">
+            <span> Welcome to My Portfolio </span>
         </h1>
         <h2>
             Made By - Sabahat Ali
@@ -65,7 +123,8 @@
        <div>
            <h3>Web:1</h3>
            <p>Welcome2HealthyLife</p>
-                <a href="welcometohealthylife.html">
+                <a href="welcometohealthylife.html" class="link">
+                 <p class="img__description">Welcome2HealthyLife.</p>
                     <img src="1.png" alt="welcometohealthylife">
                 </a>
         </div>
@@ -73,7 +132,8 @@
         <div>
                 <h3>Web:2</h3>
                 <p>jQuery Code Editor</p>
-                     <a href="welcometohealthylife.html">
+                     <a href="jqueryPanel.html" class="link">
+                      <p class="img__description">Welcome2HealthyLife.</p>
                          <img src="2.png" alt="welcometohealthylife">
                      </a>
         </div>
